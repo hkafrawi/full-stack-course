@@ -1,3 +1,6 @@
 HTML Online Refrences
 - w3school
 - develper.mozilla.org
+
+HTML has 2 types of lists: Ordered and Unordered.
+
