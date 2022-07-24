@@ -4,3 +4,6 @@ HTML Online Refrences
 
 HTML has 2 types of lists: Ordered and Unordered.
 
+HTML Input Types
+- http://www.w3schools.com/TAGs/att_input_type.asp
+- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input
