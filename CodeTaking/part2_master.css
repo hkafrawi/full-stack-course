@@ -1,19 +1,50 @@
 body{
-    background-color: yellow;
+    background-color: green;
 }
 
-div{
+/* div{
     background-color: brown;
     border-color: burlywood;
     border-width: 2px;
     border-style: dotted;
-}
+} */
 
-p{
+/* p{
     color: blue;
-}
+} */
 
 span{
     background: red;
     color: black;
+}
+/* a dot for classes */
+.previous{
+    color:white;
+}
+
+.firstDiv{
+    color: aqua;
+}
+/* hashtags for ids*/
+#singledout{
+    color:darkmagenta;
+    text-decoration: underline;
+}
+/* asterix overrides everything*/
+*{
+    color:black;
+}
+/*This says do this to all ul items after h3*/
+h3 + ul{
+    border:4px dotted purple;
+}
+
+/*This says do this to all a items IN li*/
+li a{
+    color:red;
+}
+
+li a[href="npr.org"]{
+    color: blue;
+    border: 5px solid orange;
 }
