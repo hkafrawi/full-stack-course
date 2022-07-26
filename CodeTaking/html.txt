@@ -10,4 +10,15 @@ HTML Input Types
 
 CSS stands for Cascading Styling Sheets
 - https://www.w3schools.com/css/css_intro.asp
-- 
+- http://www.w3schools.com/cssref/css_selectors.asp 
+- https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors  
+- https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors 
+- https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity
+- https://designshack.net/articles/css/what-the-heck-is-css-specificity/
+
+- Class selectors start with a dot (.)
+- id selectors use a hashtag #
+- Use an asterisk to select all elements
+- Adjacent sibling: Elements that are next to each other for ex h1 + ol
+- Descendants for ex li a
+- Attributes for ex li a[fref=]

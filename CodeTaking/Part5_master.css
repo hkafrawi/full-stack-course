@@ -1,0 +1,17 @@
+/*https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity*/
+/*https://designshack.net/articles/css/what-the-heck-is-css-specificity/*/
+
+li{
+  color:red;
+}
+
+.TopItems{
+  color:blue;
+}
+/* class is higher in the heirachy than a general tag */
+
+#two{
+  border: 3px solid black;
+}
+
+/* id is higher than class in the heirachy */
