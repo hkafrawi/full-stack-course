@@ -16,6 +16,13 @@ CSS stands for Cascading Styling Sheets
 - https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity
 - https://designshack.net/articles/css/what-the-heck-is-css-specificity/
 
+Availability of fonts on Css:
+- https://en.wikipedia.org/wiki/List_of_typefaces_included_with_Microsoft_Windows
+- https://en.wikipedia.org/wiki/List_of_typefaces_included_with_macOSfon
+- http://www.cssfontstack.com/*/
+- https://fonts.google.com/
+- https://fontlibrary.org/
+
 - Class selectors start with a dot (.)
 - id selectors use a hashtag #
 - Use an asterisk to select all elements

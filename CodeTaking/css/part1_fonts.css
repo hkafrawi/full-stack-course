@@ -1,5 +1,7 @@
 h1{
     font-family: "Arial";
+    color: greenyellow;
+    font-size: 3.0em;
 }
 
 p{
@@ -7,11 +9,14 @@ p{
 }
 
 body{
-    font-size: 10px;
+    background-color: black;
+    font-size: 20px;
 }
 
 #two{
-    font-size: 1.0em;
+    /*font-family: 'Dancing Script', cursive;*/
+    font-size: 2.0em;
+    color: red;
 }
 
 /* em is used as a ratio of the body element */
@@ -20,8 +25,10 @@ body{
 p{
     font-style: italic;
     font-weight: bold;
+    color: white;
 }
 
 h1{
     text-align: center;
 }
+
