@@ -1,0 +1,43 @@
+body{
+    background-color: black;
+}
+
+h1{
+    font-family: 'Lobster', cursive;
+    text-decoration: underline;
+    text-align: center;
+    color:cornflowerblue;
+    
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td{
+    border: 10px solid black;
+    width: 150px;
+    height: 350px;
+    
+}
+
+#one{
+    background-color: #FFBE0B;
+}
+
+#two{
+    background-color: #fb5607;
+}
+
+#three{
+    background-color: #ff006e;
+}
+
+#four{
+    background-color: #8338ec
+}
+
+#five{
+    background-color: #3a86ff
+}
+
