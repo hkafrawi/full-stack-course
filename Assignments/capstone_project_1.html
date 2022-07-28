@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Sansita&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="capstone_project_1.css">
     <title>Landing Page</title>
 </head>
@@ -11,23 +12,19 @@
     <h1>Welcome to the Landing Page</h1>
     <h2>We're a start-up that does something</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique excepturi fugit fuga doloremque ut quia sint qui eum. Id facere fugit maxime earum illo quod ad autem itaque? Tempora, saepe!</p>
-    <p></p>
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore quisquam quae iure omnis, maiores cupiditate nihil, odio autem est, earum voluptatum? Sit iure laboriosam veritatis provident consectetur sint quod neque.</p>
     <h2>Sign up for our upcoming launch!</h2>
-    <form action="thankyou.html" method="get">
-        <label class="fn">First Name:</label>
-        <input class="fn" type="text" name="" value="">
-        <p></p>
+    <form class="emailform" action="thankyou.html" method="get">
+        <label for="fn">First Name:</label><br>
+        <input type="text" name="fn" value=""><br>
 
-        <label class="ln">Last Name:</label>
-        <input class="ln" type="text" name="" value="">
-        <p></p>
+        <label for="ln">Last Name:</label><br>
+        <input type="text" name="ln" value=""><br>
 
-        <label class="em">Email:</label>
-        <input class="em" type="email" name="" value="" required>
-        <p></p>
+        <label for="em">Email:</label><br>
+        <input type="email" name="em" value="" required><br>
 
-        <input class="bt" type="submit" value="Sign me Up!">
+        <input id="bt" type="submit" value="Sign me Up!">
     </form>
 </body>
 </html>

@@ -1,15 +1,15 @@
 body{
-    background-color: #011627 ;
-    border: 50px solid rgb(103, 208, 208);
-    border-top: 0px;
-    margin: 0px;
-    text-align: center;
-    color: whitesmoke;
-    font-family: Arial, Helvetica, sans-serif ;
-    height:max-content;
+    background-color: #011627 ; /*Done*/
+    border: 50px solid rgb(103, 208, 208);  /*Done*/
+    border-top: 0px;  /*Done*/
+    margin: 0px;  /*Done*/
+    text-align: center;  /*Done*/
+    color: whitesmoke; /*Done*/
+    font-family: 'Sansita', sans-serif;  /*Done*/
+    /* height:max-content; */
 }
 
-h1{
+/* h1{
     font-size: 2.5em;
     font-weight: lighter;
 
@@ -18,25 +18,37 @@ h1{
 h3{
     font-size: 1.5em;
     font-weight: lighter;
-}
+} */
 
 p{
-    padding-left: 75px;
-    padding-right: 75px;
+    padding-left: 20%; /*Changed padding to percent*/
+    padding-right: 20%;
+    padding-top: 5%; /* add top padding*/
     text-align: center;
     vertical-align: center;
 
 }
 
-label{
-    display: grid;
+/*added styling to form tag*/
+form{
+    font-size: 1.5em;
+    margin-bottom: 10px;
 }
 
-input[type="submit"]{
-    background-color: orange;
-    border: 2px grey;
-    border-style: solid;
+/* label{
+    display: grid;
+} */
+/* combined input tag with bt id*/
+#bt{
+    height: 80px; /*Done*/
+    width: 150px; /*Done*/
+    border-radius: 20px;
+    font-size: 1em; /*adjusted to em*/
+    background-color: orange; /*Done*/
+    margin-top: 12px; /*to give spacing to button*/
+    border: 2px solid grey;
 }
+
 
 input[type="text"]{
     height: 30px;
@@ -48,9 +60,4 @@ input[type="email"]{
     width: 200px;
 }
 
-.bt{
-    height: 60px;
-    width: 135px;
-    border-radius: 20px;
-    font-size: 15px;
-}
+
