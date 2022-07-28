@@ -29,3 +29,16 @@ Availability of fonts on Css:
 - Adjacent sibling: Elements that are next to each other for ex h1 + ol
 - Descendants for ex li a
 - Attributes for ex li a[fref=]
+
+Bootstrap:
+- https://getbootstrap.com/
+- Framework
+    - Inversion of Control
+    - Default Behaviour
+    - Extensibility
+    - Non-modifiable Framework Code
+
+- differences betweek v3 and v4 
+    - panels are now called cards
+    - moved from less to sass
+    - flexbox
