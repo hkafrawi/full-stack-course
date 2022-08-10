@@ -42,3 +42,7 @@ Bootstrap:
     - panels are now called cards
     - moved from less to sass
     - flexbox
+
+
+JS:
+- // for comments
